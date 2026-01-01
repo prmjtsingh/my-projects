@@ -3,8 +3,8 @@
 #### Technical Skills: Python, SQL, PowerBI, Snowflake, Excel, PowerPoint, Word, MATLAB
 
 ## Education
-- Master of Engineering, Mechanical Engineering | University of Windsor
-- Bachelor of Engineering, Mechanical Engineering | Panjab University
+- Master of Engineering, Mechanical Engineering | University of Windsor (2020 - 2021)
+- Bachelor of Engineering, Mechanical Engineering | Panjab University (2010 - 2014)
 
 ## Work Experience
 **Senior IP Analyst @ Patsnap (_April 2022 - October 2025_)**
