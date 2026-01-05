@@ -59,9 +59,9 @@ The output is the quality of wine (score between 0 and 10).
 
 Assuming that the loans were disbursed to all borrowers, analysis is performed and a Power BI report is created to assist bank officials in making better decisions about who should be granted loans and who should not, considering the large number of cases where people defaulted.
 
-![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Pic1.png)
-![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Pic2.png)
-![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Pic3.png)
+![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/assets/img/Pic1.png)
+![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/assets/img/Pic2.png)
+![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/assets/img/Pic3.png)
 
 ## Education
 University of Windsor, Canada: 
