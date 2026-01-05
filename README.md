@@ -64,10 +64,6 @@ Assuming that the loans were disbursed to all borrowers, analysis is performed a
 ![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Pic%203.png)
 
 ## Education
-- Master of Engineering, Mechanical Engineering | University of Windsor (_December 2021_)
-- Bachelor of Engineering, Mechanical Engineering | Panjab University (_May 2014_)
-
-## Education
 University of Windsor, Canada: 
 Master of Engineering, Mechanical Engineering,
 Sep 2020 - Dec 2021
