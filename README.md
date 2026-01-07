@@ -31,7 +31,7 @@ Decision thresholds
 
 **Problem Statement:** Today, 1.85 million different apps are available for users to download. Android users have even more from which to choose, with 2.56 million available through the Google Play Store. These apps have come to play a huge role in the way we live our lives today. Our Objective is to find the Most Popular Category, find the App with largest number of installs, the App with largest size etc.
 
-## Insights:##
+**Insights:**
 1. Family category has the most number of apps with 18% of apps belonging to it, followed by Games category which has 11% of the apps.
 2. Least number of apps belong to the Beauty category with less than 1% of the total apps belonging to it.
 3. Out of all the categories "GAME" has the most number of Installations with almost 35 Billion Installations game is the most popular Category in Google App store.
@@ -61,7 +61,7 @@ Assuming that the loans were disbursed to all borrowers, analysis is performed a
 ![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/assets/img/Pic2.png)
 ![Loan Study](https://github.com/prmjtsingh/my-projects/blob/main/assets/img/Pic3.png)
 
-## Insights:##
+**Insights:**
 1. Loans have been issued mainly for the purpose of home and bsuiness.
 2. Loans have been issued to people mostly who are employed followed by people who are self-employed.
 3. The loan default rate is highest among people who are unemployed or people who are part time employed.
