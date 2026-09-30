@@ -26,6 +26,16 @@ Decision thresholds
 
 **Skills:** Numpy, Pandas, Data cleaning, Data analysis, Matplotlib, Seaborn, Data visualization, Feature engineering, Tkinter.
 
+### Patent Dataset Extraction from Lens API 
+**Code:** [`Lens API Code.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Lens%20API%20Code.ipynb)
+**Result:** [`Lens results.json`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/lens_results.json)
+
+**Description:** The Patent dataset extraction using the defined boundary conditions is a foundational process in any patent analytics or search project. In this illustration, the patent data is extracted using Lens API for testing purposes using python.
+
+The output is in the form of json file and can be found in the file "Lens results".
+
+**Skills:** Numpy, Pandas, Data extraction, Json, Requests, API's.
+
 ### Google Playstore Dataset Analysis
 **Code:** [`Google Playstore Dataset Analysis.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Google%20Playstore%20Data%20Analysis.ipynb)
 
