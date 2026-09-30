@@ -1,4 +1,4 @@
-# Data Analytics - Paramjit Singh
+# AI-Assisted Patent and Data Analytics - Paramjit Singh
 ## About
 Hi, I'm Param! I am a Senior Data Analytics professional with 7+ years of experience designing executive dashboards, automating analytics workflows, and delivering insights that empower strategic decision-making. 
 
