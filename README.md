@@ -6,7 +6,7 @@ I am skilled in SQL, Python, and range of Microsoft tools like Excel, Word, Powe
 
 This is a repository to showcase skills, share projects and track my progress in Data Analytics related topics. Considering the confidential nature of my job profile, the projects have been conducted using different datasets to showcase the skills since company data cannot be used to create portfolio.
 
-#### Technical Skills: Python, SQL, Microsoft PowerBI, Excel, PowerPoint, Word, MATLAB, Snowflake
+#### Technical Skills: Python, SQL, Microsoft PowerBI, Excel, PowerPoint, Word, MATLAB, Snowflake, Patsnap, Claude
 
 ## Projects
 ### Patent Dataset Analysis for Strength index 
