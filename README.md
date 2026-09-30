@@ -90,12 +90,25 @@ Bachelor of Engineering, Mechanical Engineering,
 Sep 2010 - May 2014
 
 ## Work Experience
+**IP Specialist @ Conestoga (_May 2026 - Present_)**
+- Lead technical discovery conversations directly with founders and researchers to evaluate technology viability and market positioning, and presenting findings that guide go/no-go commercialization decisions to Ontarion SMEs.
+- Advise on innovation strategy and MVP (Minimum Viable Product) analysis across multiple active technology projects, testing proof of concepts using PatSnap’s AI powered workflows to validate technical feasibility, uncover protectable IP, and guide commercialization direction.
+- Develop AI workflows using Patsnap’s and Eureka AI tools to perform technology discovery, competitive mapping, and product roadmap analysis for Ontario SMEs, helping them identify protectable innovations, strengthen IP strategy, and accelerate commercialization pathways. 
+- Develop automated reports and dashboards using PatSnap’s AI workflows to deliver technical insights to Ontario SMEs, streamlining analysis and supporting data driven decisions that strengthened product commercialization efforts.
+
 **Senior IP Analyst @ Patsnap (_April 2022 - October 2025_)**
-- Partnered with executive leaders to present data-driven insights using Power BI and PowerPoint on product adoption, competitor performance, and innovation trends.
-- Conducted ETL of raw data and SQL-based data extraction of user data to track product feature familiarity across industries improving the turnaround time by 15%.
-- Led A/B testing and analytics initiatives, improving AI feature accuracy by 15% and influencing product roadmap for incorporation of AI features in the SaaS product. 
+- Designed and executed prompt-based test plans to evaluate Patsnap's AI agents for search and classification, benchmarking AI-curated output against manual analysis and advising workflow refinements that improved accuracy by 15%.
+- Formulated and analyzed A/B tests comparing AI-curated vs. manual workflows, translating results into recommendations that shaped Patsnap AI feature development and roadmap sequencing.
+- Conducted hands on PatSnap API testing, validating API outputs against platform results to ensure data integrity, and later expanded this work into a personal Python framework integrating public patent APIs such as Lens to automate multi source data retrieval and analysis.
+- Delivered data backed recommendations and live presentations to cross functional stakeholders and external clients, strengthening alignment and increasing adoption of data driven decision making across product, engineering, and commercial teams.
+- Supported end to end migration of large client datasets from competitor platforms into Patsnap, ensuring 100% data consistency through rigorous validation, reconciliation, and quality assurance checks that preserved downstream analytics accuracy. 
 
 **Senior Associate @ Clarivate Analytics (_April 2018 - September 2020_)**
-- Conducted analytics-driven technical and market landscape studies to support client R&D and innovation planning.  
-- Conducted data extraction, cleaning, and classification for 100K+ technical and market datasets, ensuring enterprise-level data quality.
-- Used Excel (KNN, ANOVA) for statistical and predictive analysis of technical/market data by studying and classifying the data into respective clusters.
+- Analyzed 5M+ product, customer, and market records using Patsnap data from partner teams, identifying inaccuracies in technical attributes and data pulls by Patsnap or by partner teams, and translating findings into actionable insights that informed client product development and improved data quality.
+- Analyzed patentability, invalidity, FTO, and state of the art reports received from partner teams using Patsnap, identifying inaccuracies in technical interpretations and prior art mapping to ensure the highest level of quality and reliability delivered to clients.
+- Led patent landscape and competitive intelligence projects with partner teams, identifying white space opportunities and emerging technology gaps that directly informed product feature development and strategic positioning for external clients.
+- Partnered with Product and partner teams to define project goals, KPIs, and analytical frameworks, translating customer needs into prioritized roadmap decisions that strengthened alignment and accelerated delivery.
+- Delivered actionable insights from patent landscape and competitive intelligence projects to external clients, enabling them to make informed product roadmap and innovation strategy decisions grounded in technology trends, white space opportunities, and emerging competitive signals.
+- Served as a customer facing technical point of contact, resolving client queries on the Patsnap platform and delivering analytical findings directly to external stakeholders to strengthen adoption and ensure a seamless user experience.
+- Built and maintained Excel based ETL pipelines using PatSnap and Power Query, reducing manual data preparation by 40% and accelerating insight delivery by 15% through automated, repeatable data processing workflows.
+- Created and maintained user stories and acceptance criteria in Pendo, documenting platform bugs and recommending workflow improvements that strengthened product quality and enhanced the Patsnap user experience.
