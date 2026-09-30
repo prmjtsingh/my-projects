@@ -1,0 +1,40 @@
+{
+    "total": 3135404,
+    "max_score": 2.929493,
+    "data": [
+        {
+            "lens_id": "001-625-250-076-355",
+            "date_published": "2022-03-15",
+            "doc_key": "US_11276285_B2_20220315",
+            "abstract": [
+                {
+                    "text": "Methods and systems for motion detection are provided. Aspects includes receiving, from a sensor, sensor data associated with an area proximate to the sensor, determining an event type based on a feature vector, utilizing a machine learning model, the feature vector comprising a plurality of features extracted from the sensor data, and generating an alert based on the event type.",
+                    "lang": "en"
+                }
+            ]
+        },
+        {
+            "lens_id": "002-429-687-758-402",
+            "date_published": "2025-06-19",
+            "doc_key": "US_20250200921_A1_20250619",
+            "abstract": [
+                {
+                    "text": "A method of generating a custom three-dimensional (3D) model of a patient bone from one or more 2D images is disclosed. The method includes obtaining a 2D image of a bone, optionally of a joint, and identifying a 3D bone template for a candidate or representative bone from a pre-aligned library of representative bones. The method further includes repositioning one or more views of the 3D model or 2D images (e.g., with respect to rotation angle or caudal angle). In an iterative process, another 3D bone model for another candidate bone can be identified based on the repositioning until an accuracy threshold is satisfied. When the accuracy threshold is satisfied, surface region(s) of the current 3D bone model can then be modified to generate the resulting 3D model for the patient bone. The process can then be repeated for other bone(s) associated with the joint of the patient.",
+                    "lang": "en"
+                }
+            ]
+        },
+        {
+            "lens_id": "007-028-653-127-842",
+            "date_published": "2023-05-16",
+            "doc_key": "US_11650542_B2_20230516",
+            "abstract": [
+                {
+                    "text": "Techniques related to generating holographic images are discussed. Such techniques include application of a machine learning model to the target image to generate data that is used to enable the determination of a phase pattern via an iterative propagation feedback model. The iterative propagation feedback model is used to generate a feedback strength value, which is then used to generate a phase diffraction pattern for presentation at a holographic plane.",
+                    "lang": "en"
+                }
+            ]
+        }
+    ],
+    "results": 3
+}
