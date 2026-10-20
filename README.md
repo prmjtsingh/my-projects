@@ -72,7 +72,7 @@ This approach had a structural weakness: novel technologies are often described 
 - Relevance actions: one-click 'Add to Report' or 'Mark Not Relevant' on each candidate, captured for model evaluation.
 - Report builder: selected references flow into a comparison workspace with an AI-drafted (analyst-editable) summary of overlap and risk, ready for export.
 
-**Functional Requirements:**
+**Success Criteria:**
 - Reduce average time-to-first-relevant-reference from hours to under a few minutes.
 - Improve recall of known-relevant references on the validation set by a measurable double-digit margin over keyword-only search.
 - At least 80% of searches include at least one AI-suggested reference accepted into the final report.
