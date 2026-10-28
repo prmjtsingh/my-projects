@@ -1,6 +1,6 @@
 # AI-Assisted Product (Technology) Owner and Strategist - Paramjit Singh
 ## About
-Hi, I'm Param! I am a Product-minded PMP and PSPO who turns ambiguous questions, messy data, and AI outputs into product decisions teams can act on, then keeps the work on schedule until it ships.
+Hi, I'm Param! I am a Product-minded PMP and PSPO professional who turns ambiguous questions, messy data, and AI outputs into product decisions teams can act on, then keeps the work on schedule until it ships.
 
 I am skilled in SQL, Python, and a range of Microsoft tools like Excel, Word, PowerPoint, and Power BI, with a strong track record of presenting compelling data stories to senior leadership by refining the data into actionable insights presented through Power BI dashboards.
 
