@@ -79,10 +79,58 @@ This approach had a structural weakness: novel technologies are often described 
 - 100% of accept/reject decisions captured and available for model evaluation.
 
 **Reflection and Learnings:**
-- Semantic search only pays off if the evidence is visible. Recall improvements on their own didn't change analyst behavior -- showing the exact matched passage next to each score is what made analysts willing to act on a suggestion in a client deliverable.
-- Unifying patents and literature in one query removed a hidden gap. Non-patent literature had effectively been a secondary, easy-to-skip step; folding it into the same ranked list made comprehensive search the default instead of an extra task.
+- Semantic search only pays off if the evidence is visible. Recall improvements on their own didn't change analyst behavior showing the exact matched passage next to each score is what made analysts willing to act on a suggestion in a client deliverable.
+- Unifying patents and literature in one query removed a hidden gap. Non-patent literature had effectively been a secondary, easy-to-skip step. Folding it into the same ranked list made comprehensive search the default instead of an extra task.
 - Relevance feedback is the highest-value byproduct. Capturing every accept/reject decision turned routine analyst work into an ongoing evaluation set for the model, which is more valuable long-term than any single search result.
 - If I revisited this today: I'd build in a lightweight way for analysts to flag *why* a suggestion was rejected (wrong domain vs. wrong concept vs. outdated art), since that distinction matters more for model improvement than a simple reject count.
+
+### Redesign Patent Triage with AI-Assisted Classification
+**Problem Statement:** Patent analysts manually reviewed and classified every incoming patent and prior-art document against internal technology taxonomies before landscape, novelty, or freedom-to-operate analysis could begin. This first-pass triage step was entirely manual: analysts read claim language, cross-referenced legacy classification codes, and assigned categories by judgment.
+As document volume grew, this created three compounding problems: triage consumed a large share of analyst time before any billable analysis began, classification quality varied across analysts and technology domains, and there was no systematic way to capture analyst judgment to improve the process over time. Leadership had already introduced an AI/LLM-based classification model to suggest categories automatically, but early adoption was low. Analysts didn't trust unexplained AI suggestions enough to rely on them, and the workflow still required opening a separate tool to see model output.
+
+**User Research:**
+- Shadowed 4 patent analysts across mechanical, electronics, and automotive domains during live triage sessions to map the existing manual workflow step-by-step.
+- Reviewed 6 months of triage throughput and reclassification data to quantify where time was going and where errors clustered.
+- Ran structured interviews with analysts and the Professional Services Director to surface trust concerns with the existing AI suggestions.
+- Analyzed a sample of already-classified documents to identify where the AI model's suggestions disagreed most with analyst judgment, and why.
+
+**Key findings:**
+- Time was lost to context-switching, not just reading. Analysts were toggling between the case management tool and a separate AI-output export, adding friction on every document regardless of how good the suggestion was.
+- Trust tracked with explainability, not accuracy. Analysts rejected correct AI suggestions almost as often as incorrect ones when the tool gave no indication of why a category was suggested.
+- Errors clustered in a small number of ambiguous domains. Robotics-adjacent and multi-disciplinary filings (e.g., electronic haptics, robotics controls) accounted for a disproportionate share of misclassifications both by the model and by analysts working under time pressure.
+- Analyst overrides were a wasted signal. When analysts corrected the AI's suggestion, that correction went nowhere. It wasn't captured anywhere the model could learn from.
+
+**Product Goals:**
+- Reduce time-to-classification for incoming patent documents while improving classification consistency, by embedding AI suggestions directly into the analyst's existing triage workflow with visible confidence and rationale.
+- Fully automating classification with no human review. Trust and accuracy required a human-in-the-loop model, not full automation.
+- Rebuilding the underlying classification model itself (owned by the ML team). This initiative focused on the workflow and interface around the existing model.
+
+**User Stories:** 
+- As a patent analyst, I want to see the AI's suggested classification and confidence score directly in my triage queue, so I don't have to switch tools to see it.
+- As a patent analyst, I want to see which part of the document drove the AI's suggestion, so I can quickly judge whether to trust it.
+- As a patent analyst, I want to bulk-accept high-confidence suggestions, so I only spend review time on documents that actually need it.
+- As a patent analyst, I want an easy way to override a suggestion and note why, so my correction isn't lost.
+- As a Professional Services Director, I want a dashboard of triage throughput, accuracy, and override rates by domain, so I can staff and prioritize appropriately.
+- As an ML engineer, I want every analyst override captured with the original suggestion and rationale, so it can feed the next fine-tuning cycle.
+
+**Functional Requirements:**
+- Confidence-scored queue: every incoming document shows an AI-suggested classification and a confidence score (High / Medium / Low), sorted so low-confidence items surface first.
+- Auto-accept threshold: documents above a configurable confidence threshold (initially 65%) can be bulk-accepted without individual review.
+- Explainability panel: the review screen highlights the specific claim language driving the suggestion, plus the top alternative candidate categories and their scores.
+- One-click override with rationale: analysts can override a suggestion in the same screen, with an optional note; overrides are logged with the original AI suggestion for retraining.
+- Analytics dashboard: cycle time, auto-accept rate, override rate, and accuracy trends, filterable by technology domain.
+
+**Success Criteria:**
+- Reduce average cycle time per document by at least 25% within one quarter of rollout.
+- Achieve at least 50% of documents auto-accepted at high confidence without manual review.
+- Improve classification accuracy, measured against downstream reclassification/error rate, by a measurable double-digit margin.
+- 100% of analyst overrides captured and routed to the model retraining pipeline (vs. 0% previously).
+
+**Reflection and Learnings:**
+- Trust is a design problem, not just a model problem. The accuracy of the underlying AI model didn't change during this project. What changed was whether analysts could see and verify its reasoning. That shift, more than any model improvement, drove adoption.
+- Capturing the override was as valuable as the suggestion itself. Treating every human correction as training data closed a feedback loop that had previously been thrown away, compounding accuracy gains over time rather than treating the model as static.
+- Confidence thresholds need owners, not just defaults. The 65% auto-accept threshold was a starting point, not a fixed rule. It needed a clear owner (the Professional Services Director) to review and adjust as domain-level accuracy data came in.
+- If I revisited this today: I'd push for domain-specific confidence thresholds from day one (robotics-adjacent filings clearly needed a higher bar than mechanical filings), rather than discovering that need after rollout.
 
 ### Google Playstore Dataset Analysis
 **Code:** [`Google Playstore Dataset Analysis.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Google%20Playstore%20Data%20Analysis.ipynb)
