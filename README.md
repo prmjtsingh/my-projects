@@ -26,11 +26,12 @@ Decision thresholds
 
 **Skills:** NumPy, Pandas, Data cleaning, Data analysis, Matplotlib, Seaborn, Data visualization, Feature engineering, Tkinter.
 
-### Patent Dataset Extraction from Lens API 
-**Code:** [`Lens API Code.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Lens%20API%20Code.ipynb)
+### Patent Dataset Extraction from Lens API and connection with Claude MCP
+**API Code:** [`Lens API Code.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Lens%20API%20Code.ipynb)
 **Result:** [`Lens results.json`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/lens_results.json)
+**MCP Code:** [`Lens MCP Code.ipynb`](https://github.com/prmjtsingh/my-projects/blob/main/Projects/Lens%20MCP%20Code.ipynb)
 
-**Description:** The Patent dataset extraction using the defined boundary conditions is a foundational process in any patent analytics or search project. In this illustration, the patent data is extracted using the Lens API for testing purposes using Python.
+**Description:** The Patent dataset extraction using the defined boundary conditions is a foundational process in any patent analytics or search project. In this illustration, the patent data is extracted using the Lens API for testing purposes using Python. Further, the dataset extracted using Lens APi has been analyzed by Claude by connecting Lens API with Claude using Claude MCP connector.
 
 The output is in the form of a JSON file and can be found in the file "Lens results".
 
