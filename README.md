@@ -35,7 +35,7 @@ Decision thresholds
 
 The output is in the form of a JSON file and can be found in the file "Lens results".
 
-**Skills:** NumPy, Pandas, Data extraction, JSON, Requests, API's.
+**Skills:** NumPy, Pandas, Data extraction, JSON, Requests, API, MCP.
 
 ### AI-Assisted Prior Art Search framework and workflow case study
 **Problem Statement:** Novelty, invalidity, and freedom-to-operate (FTO) searches all start the same way: an analyst takes a technology -- often described only informally by a client or inventor -- and has to find the closest existing patents and non-patent literature (NPL). Historically, this meant translating that description into Boolean keyword strings and iterating across multiple patent databases and literature sources, refining search terms as results came back.
